@@ -5,6 +5,9 @@
 ## Mục lục nội dung
 
 - [1. Overview](#1-overview)
+  - [1.1 VCS](#11-vcs)
+  - [1.2 Repository](#12-repository)
+  - [1.3 Quản lý phiên bản của tập tin](#13-quản-lý-phiên-bản-của-tập-tin)
 - [2. Quy trình hoạt động](#2-quy-trình-hoạt-động)
 - [3. Các lệnh git thường dùng](#3-các-lệnh-git-thường-dùng)
   - [3.1 Cấu hình lần đầu khi sử dụng git](#31-cấu-hình-lần-đầu-khi-sử-dụng-git)
@@ -22,8 +25,22 @@
 
 ## 1. Overview
 
-- **VCS - version control system** hoặc **SCM - source control management** - hệ thống kiểm soát phiên bản phân tán.
-- Chia ra làm 2 kho lưu trữ là local và remote.
+### 1.1 VCS
+
+- **Version control system** hoặc **SCM - source control management**, hệ thống kiểm soát phiên bản phân tán.
+- Giúp theo dõi và quản lý các thay đổi trong mã nguồn.
+- Cho phép tạo ra các phiên bản khác nhau của mã nguồn.
+
+### 1.2 Repository
+
+- Là một nơi lưu trữ tất cả các lịch sử thay đổi của mã nguồn của một dự án.
+- Nó có thể được tạo ra bằng cách sử dụng lệnh **`git init`**
+- Mỗi repository được lưu trữ trên máy tính cục bộ hoặc trên một máy chủ trực tuyến
+
+### 1.3 Quản lý phiên bản của tập tin
+
+- Mỗi lần thực hiện một commit, nó sẽ tạo ra một bản sao của tất cả các tập tin.
+- Thông qua việc tạo nhánh thì mỗi nhánh là một bản sao của tất cả các tập tin.
 
 ## 2. Quy trình hoạt động
 
