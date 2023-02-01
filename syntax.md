@@ -154,7 +154,8 @@
 - [x] **`git branch`** 🠊 hiển thị các nhánh đang tồn tại.
   - **`git branch <branch_name>`** 🠊 tạo nhánh theo tên chỉ định, kế thứa **các commit** của nhánh **master** tính từ commit **cuối** trước khi tạo nhánh. Lúc này vẫn ở nhánh chính chưa chuyển nhánh.
   - **`git branch -m <old_branch_name> <new_brach_name>`** 🠊 đổi tên nhánh.
-  - **`git branch -d <brachName>`** 🠊 xóa nhánh chỉ định.
+  - **`git branch -d <brachName>`** 🠊 xóa nhánh local.
+  - **`git push origin -d <branchName>`** 🠊 xóa nhánh remote.
 - [x] **`git merge <branch_name>`** 🠊 merge nhánh
 
 **Quy tắc đặt tên nhánh**
