@@ -51,3 +51,6 @@
 - B15: sau khi fix xong sẽ commit tham chiếu vô đúng issue, merge vô main sau đó trở về nhánh main và pull. Sau đó xoá nhánh hotfixes
 
 > Sẽ chỉ còn 2 nhánh là main và develop
+
+Vd về git workflow [ở đây](https://github.com/thonghp/git-workflow-team)
+
