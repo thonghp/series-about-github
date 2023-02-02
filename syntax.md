@@ -55,7 +55,7 @@
 - [x] Logout tài khoản trên máy tính cục bộ 🠊 truy cập **credential manager** sau đó chọn tài khoản muốn xoá.
 - [x] **`dir`** 🠊 **hiển thị các file và thư mục** có trong thư mục chỉ định.
 - [x] **`ls -a`** 🠊 **hiển thị các file** kể cả file **`.gitignore`**.
-- [x] **Thoát màn hình** vim **`:q`** hoặc **`q`**.
+- [x] **Thoát màn hình** vim **`:wq!`** hoặc **`q`**.
 - [x] **Tạo file** 🠊 **`touch <fileName>`**.
   - Vd: **`touch a.txt`**
 
@@ -244,6 +244,8 @@ staging 🠊 Liên quan đến kiểm tra trước khi đưa vào phiên bản c
 - [x] **`git cherry-pick <commit_hashT4>..<commit_hashT7>`** 🠊 merge commit T5,6,7.
 - [x] **`git cherry-pick <commit_hashT4>^..<commit_hashT7>`** 🠊 merge commit T4,5,6,7.
 
+**[⬆ Quay trở lại đầu trang](#mục-lục-nội-dung)**
+
 ### 3.12 Git stash
 
 **Đưa file đang làm giữa chừng vào folder tạm để làm việc khác, chỉ áp dụng cho file đã commit và sửa đổi.**
@@ -256,6 +258,8 @@ staging 🠊 Liên quan đến kiểm tra trước khi đưa vào phiên bản c
 - [x] **`git stash apply <stash_name>`** 🠊 lấy stash ra làm tiếp.
   - Vd: **`git stash apply stash@{0}`** 🠊 lấy ra stash T2.
 - [x] **`git stash clear`** 🠊 xoá hết stash đã lưu. Dùng khi lấy stash ra và làm xong.
+
+**[⬆ Quay trở lại đầu trang](#mục-lục-nội-dung)**
 
 ## 4. Commit chuẩn
 
