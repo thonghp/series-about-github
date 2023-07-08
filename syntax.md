@@ -55,7 +55,14 @@
 - [x] Logout tài khoản trên máy tính cục bộ 🠊 truy cập **credential manager** sau đó chọn tài khoản muốn xoá.
 - [x] **`dir`** 🠊 **hiển thị các file và thư mục** có trong thư mục chỉ định.
 - [x] **`ls -a`** 🠊 **hiển thị các file** kể cả file **`.gitignore`**.
-- [x] **Thoát màn hình** vim **`:wq!`** hoặc **`q`**.
+- [x] Lệnh Vim
+  - Nhấn phím **`i`** để chuyển sang chế độ chèn để nhập nội dung (commit)
+  - **`Esc`** thoát khỏi chế độ chèn và quay lại chế độ chỉnh sửa (normal mode).
+  - Di chuyển con trỏ **==> `h`** trái, **`j`** xuống dòng, **`k`** lên trên, **`l`** phải.
+  - Xoá văn bản **==>`x`** ký tự, **`dd`** dòng hiện tại. 
+  - Sao chép **==>`yy`** dòng hiện tại, **`yw`** từ hiện tại.
+  - Dán **==>`p`** sau con trỏ, **`P`** trước con trỏ.
+  - **`:w`** lưu file, **`:q`** thoát vim (nếu không có thay đổi chưa được lưu), **`:wq`** lưu tệp tin và thoát Vim.
 - [x] **Tạo file** 🠊 **`touch <fileName>`**.
   - Vd: **`touch a.txt`**
 
