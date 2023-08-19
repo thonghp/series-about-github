@@ -124,7 +124,7 @@
 ### 3.4 Git commit
 
 - [x] **`git commit -m "<message>"`** 🠊 ghi lại các thay đổi với kho lưu trữ. **Lưu ý** là file **Untracked** sẽ không được commit, chỉ commit các file đã **add**.
-- [x] **`git reset --soft HEAD~1`** 🠊 huỷ commit cuối.
+- [x] **`git reset --soft HEAD~1`** 🠊 huỷ commit cuối. Lưu ý code vẫn còn trong stage chưa push
   - Vd: **commit cuối là c2** dùng để commit một file mới là b.txt. Lúc này nó sẽ **huỷ commit c2** và file b.txt sẽ quay lại trạng thái đã add nhưng chưa commit.
 - [x] **`git reset --hard HEAD~1`** 🠊 xoá commit cuối và những thay đổi liên quan đến commit cuối.
 - [x] **`git commit --amend -m "<message>"`** 🠊 Thêm file mới add vào commit cuối thay vì commit thêm 1 lần
@@ -150,7 +150,9 @@
   - Sử dụng **`git merge`** để hợp nhất với các nhánh local.
 - [x] **`git pull`** 🠊 tải về các thay đổi remote xuống xuống local và merge vào local, lệnh này tương tự **git fetch + git merge**.
   - **`git pull <remote> <branch>`** 🠊 tải về các thay đổi remote của nhánh xuống xuống local. Vd **`git pull origin main`**
+  - **`git pull --rebase`** 🠊 để kéo dữ liệu vào nhánh hiện tại của bạn và sau đó đẩy commit của bạn lên trên các commit pull về
 - [x] **`git clone <url>`** 🠊 **sao chép toàn bộ** lịch sử và tập tin của repository từ trên github về máy và đặt tên giống trên máy chủ. Ta có thể làm việc trên nó như một local repository.
+  - **`git clone <url> folder_name`** 🠊 Đổi tên folder khác với tên project khi clone về
 
 **[⬆ Quay trở lại đầu trang](#mục-lục-nội-dung)**
 
